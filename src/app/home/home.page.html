@@ -7,7 +7,7 @@
         <ion-button expand="block" color="medium" (click)="removeNum()">AC</ion-button>
       </ion-col>
       <ion-col>
-        <ion-button expand="block" color="medium">+/-</ion-button>
+        <ion-button expand="block" color="medium" (click)="toggleSign()">+/-</ion-button>
       </ion-col>
       <ion-col>
         <ion-button expand="block" color="medium">%</ion-button>
@@ -55,7 +55,7 @@
         <ion-button expand="block" (click)="addNum(3)">3</ion-button>
       </ion-col>
       <ion-col>
-        <ion-button expand="block" color="warning">+</ion-button>
+        <ion-button expand="block" color="warning" (click)="adding()">+</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
